@@ -60,7 +60,6 @@ for this_tweet in cursor:
         tweet.append(this_tweet.full_text)
 
 
-
 print("Number of tweets collected: ", i)
 
 df = pd.DataFrame(tweet, columns = ["text"])
